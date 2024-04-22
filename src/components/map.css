@@ -1,0 +1,21 @@
+.map-wrap {
+    position: relative;
+    width: 100vw;
+    height: 70vh;
+}
+
+.map {
+    position: absolute;
+    width: 100vw;
+    height: 70vh;
+}
+
+@media screen and (min-width: 640px) {
+    .map-wrap {
+        height: 85vh;
+    }
+    
+    .map {
+        height: 85vh;
+    }
+}
